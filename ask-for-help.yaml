@@ -9,7 +9,6 @@ body:
       label: "⚠️ Please verify that this bug has NOT been raised before."
       description: "Search in the issues sections by clicking [HERE](https://github.com/louislam/uptime-kuma/issues?q=)"
       options:
-        - label: "I checked and didn't find similar issue"
           required: true
   - type: checkboxes
     attributes:
@@ -43,7 +42,6 @@ body:
     validations:
       required: true
   - type: input
-    id: browser-vendor
     attributes:
       label: "🌐 Browser"
       description: "Which browser are you running on?"
